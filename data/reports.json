@@ -53,16 +53,6 @@
     "tags": ["XSS", "Web", "Frontend"],
      "date": "2024-07",
     "link": "/disclosure.html"
-  },
-   {
-    "title": "$",
-    "program": "$",
-    "severity": "$",
-    "short": "$",
-    "description": "$",
-    "tools": ["$"],
-    "tags": ["$"],
-     "date": "$",
-    "link": "/disclosure.html"
   }
 ]
+
