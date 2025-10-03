@@ -8,7 +8,7 @@
     "tools": ["Burp Suite", "Custom scanner"],
     "tags": ["SSRF", "API", "Web"],
      "date": "2024-07",
-    "link": "/disclosure.html"
+    "link": "/portfolio/disclosure.html"
   },
   {
     "title": "IDOR in File Download",
@@ -19,7 +19,7 @@
     "tools": ["Burp Suite", "Manual testing"],
     "tags": ["IDOR", "Auth", "Web"],
      "date": "2024-07",
-    "link": "/disclosure.html"
+    "link": "/portfolio/disclosure.html"
   },
   {
     "title": "SSTI in Template Rendering",
@@ -30,7 +30,7 @@
     "tools": ["Python", "Flask"],
     "tags": ["SSTI", "Web"],
      "date": "2024-07",
-    "link": "/disclosure.html"
+    "link": "/portfolio/disclosure.html"
   },
   {
     "title": "Mobile API Token Exposure",
@@ -41,7 +41,7 @@
     "tools": ["Frida", "Burp Suite"],
     "tags": ["Mobile", "API", "Security"],
      "date": "2024-07",
-    "link": "/disclosure.html"
+    "link": "/portfolio/disclosure.html"
   },
   {
     "title": "XSS in Comment Section",
@@ -52,6 +52,7 @@
     "tools": ["Burp Suite", "JavaScript"],
     "tags": ["XSS", "Web", "Frontend"],
      "date": "2024-07",
-    "link": "/disclosure.html"
+    "link": "/portfolio/disclosure.html"
   }
 ]
+
