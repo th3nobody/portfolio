@@ -1,0 +1,68 @@
+[
+  {
+    "title": "SSRF in Internal API",
+    "program": "Bugcrowd",
+    "severity": "Critical",
+    "short": "Found SSRF in internal API endpoint allowing server access.",
+    "description": "The SSRF allowed retrieving internal metadata and sensitive API endpoints. Sanitized PoC included safe curl examples.",
+    "tools": ["Burp Suite", "Custom scanner"],
+    "tags": ["SSRF", "API", "Web"],
+     "date": "2024-07",
+    "link": "/disclosure.html"
+  },
+  {
+    "title": "IDOR in File Download",
+    "program": "HackerOne",
+    "severity": "High",
+    "short": "Unauthorized file access via parameter manipulation.",
+    "description": "Exposed internal documents using predictable file IDs. Report included remediation steps for access control.",
+    "tools": ["Burp Suite", "Manual testing"],
+    "tags": ["IDOR", "Auth", "Web"],
+     "date": "2024-07",
+    "link": "/disclosure.html"
+  },
+  {
+    "title": "SSTI in Template Rendering",
+    "program": "Private",
+    "severity": "High",
+    "short": "Template injection in user dashboard allowed code execution.",
+    "description": "Demonstrated safe payloads in development environment. Suggested escaping user input to prevent code execution.",
+    "tools": ["Python", "Flask"],
+    "tags": ["SSTI", "Web"],
+     "date": "2024-07",
+    "link": "/disclosure.html"
+  },
+  {
+    "title": "Mobile API Token Exposure",
+    "program": "YesWeHack",
+    "severity": "Medium",
+    "short": "API tokens were exposed via unencrypted local storage.",
+    "description": "Provided steps for secure storage and token rotation. Verified on Android/iOS.",
+    "tools": ["Frida", "Burp Suite"],
+    "tags": ["Mobile", "API", "Security"],
+     "date": "2024-07",
+    "link": "/disclosure.html"
+  },
+  {
+    "title": "XSS in Comment Section",
+    "program": "Bugcrowd",
+    "severity": "Medium",
+    "short": "Reflected XSS in public comment input field.",
+    "description": "Safe demo payload used to illustrate the vulnerability. Recommended proper input sanitization and CSP headers.",
+    "tools": ["Burp Suite", "JavaScript"],
+    "tags": ["XSS", "Web", "Frontend"],
+     "date": "2024-07",
+    "link": "/disclosure.html"
+  },
+   {
+    "title": "$",
+    "program": "$",
+    "severity": "$",
+    "short": "$",
+    "description": "$",
+    "tools": ["$"],
+    "tags": ["$"],
+     "date": "$",
+    "link": "/disclosure.html"
+  }
+]
