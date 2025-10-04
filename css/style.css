@@ -424,6 +424,30 @@ form textarea {
   font-size: 0.9rem;
   font-style: italic;
 }
+/* profile */
+
+.social {
+  display: grid;
+  grid-template-columns: 100px 1fr; 
+  row-gap: 8px;
+  align-items: center; 
+}
+
+.social-item {
+  display: contents; 
+}
+
+.label {
+  font-weight: bold;
+}
+.social a{
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.social a:hover {
+  color: var(--accent2);
+}
 
 /* Responsive */
 @media (min-width: 769px){
@@ -473,3 +497,4 @@ form textarea {
     grid-template-columns: 1fr; 
   }
 }
+
